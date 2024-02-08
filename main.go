@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/Sa-YoorHeadley/go-fcc/mystrings"
+)
 
 func main() {
-	fmt.Print("Hello world!")
+	fmt.Println(mystrings.Reverse("hello world"))
 }
